@@ -23,11 +23,11 @@ function App() {
   return (
       <BrowserRouter>
     <div className="App">
-      <Link to="/111">Link</Link>
+      <Link to="/df/111">Link</Link>
       <Routes>
-        <Route path="/" element={<Main/>}/>
-        <Route path="/123" element={<h1>123</h1>}/>
-        <Route path="/111" element={<h1>111</h1>}/>
+        <Route path="/df" element={<Main/>}/>
+        <Route path="/df/123" element={<h1>123</h1>}/>
+        <Route path="/df/111" element={<h1>111</h1>}/>
       </Routes>
     </div>
       </BrowserRouter>
